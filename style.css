@@ -1,0 +1,75 @@
+
+
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+        body {
+            background: #eee;
+            font-family:
+                Helvetica Neue,
+                Helvetica,
+                Arial,
+                sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .swiper {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .swiper-button-prev,
+        .swiper-button-next {
+            position: absolute;
+            transform: rotate(90deg);
+            transform-origin: center;
+            /* Ensuring buttons are above the slides */
+            z-index: 1000;
+            /* Showing pointer cursor on hover */
+            cursor: pointer;
+        }
+
+        .swiper-button-prev {
+            top:2rem;
+            left:50%;
+            margin-left: -15px;
+        }
+
+        .swiper-button-next {
+            bottom:2rem;
+            right:50%;
+            margin-right:-15px;
+        }
+
+
+        .swiper-button-next {
+            margin-top: 20rem;
+        }
+    
